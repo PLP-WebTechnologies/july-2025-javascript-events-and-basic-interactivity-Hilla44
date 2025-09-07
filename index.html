@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive HillCid Dataweb</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <P><h1>HillCid DataWeb</h1></P>
+  <P><h3>Your health partner</h3></P>
+    <!--Form validation-->
+    <p><form id="myform">
+        <label for="username">Username:</label>
+
+        <input type="text" id="username" placeholder="Username">
+        <span id="nameError" class="error"></span>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email">
+        <span id="emailError" class="error"></span>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+        <span id="passwordError" class="error"></span>
+        <br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+    </p>
+  <div class="container">
+    <div class="header-bar">
+      <button onclick="alert('Welcome to HillCid DataWeb!')">Click Me!</button>
+    
+      <input type="text" placeholder="Type something..." id="searchInput">
+    </div>
+
+    <button class="accordion">Welcome to HillCid DataWeb</button>
+    <div class="panel">
+      <p>We have gone a year since our founder came up with the innovative idea to revolutionize data visualization. Our team has worked tirelessly to create intuitive, user-friendly interfaces that make complex data accessible to everyone.</p>
+    </div>
+    
+    <button class="accordion">Your health partner</button>
+    <div class="panel">
+      <p>Learn how to interact with our Web. Our health data platform provides personalized insights based on your input, helping you track wellness metrics and achieve your health goals through data-driven recommendations.</p>
+    </div>
+    
+    <button class="accordion">Form canvas</button>
+    <div class="panel">
+      <p>Validate user inputs and provide helpful feedback using JavaScript. Our form canvas technology allows for dynamic form validation with real-time feedback, making data entry seamless and error-free.</p>
+    </div>
+
+    <div class="img-viewer">
+      <img id="main-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Nature House">
+    </div>
+    
+    <div class="nav-btns">
+      <button onclick="showPrevImage()">Previous</button>
+      <button onclick="showNextImage()">Next</button>
+
+       <!--Form validation-->
+      
+
+
+    </div>
+  </div>
+
+  
+
+   
+
+ <script src="script.js"></script>
+</body>
+</html>
